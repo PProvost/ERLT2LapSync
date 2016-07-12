@@ -12,7 +12,8 @@ IRrecv irrecv(recvPin);
 #define ERLT_ZERO 300
 #define ERLT_ONE  600
 #define ERLT_TOLERANCE  150
-#define MIN_TIMER_DELTA 2000       // milliseconds
+
+#define MIN_TIMER_DELTA 5000       // milliseconds between valid lap recordings
 
 #define CHAR_SOH    0x01
 #define CHAR_TAB    0x09
